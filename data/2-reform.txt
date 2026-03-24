@@ -646,7 +646,7 @@ mission "ScS Union Shadows"
 	name "How to train your Union"
 	source Delve
 	destination Covert
-	clearance `There's a brief discussion that you can't catch on the other end of the radio, then a voice says clearly, "You're cleard to land."`
+	clearance `There's a brief discussion that you can't catch on the other end of the radio, then a voice says clearly, "You're cleared to land."`
 # bug	clearance `There's a brief discussion that you can't catch on the other end of the radio, then a voice says clearly, "You're cleard to land, <ship>."`
 	on enter Gienah
 		dialog `The Rolling Stone is here and, moreover, seems to be interested in you. Perhaps the visitor comes from a planet in this system.`
@@ -696,7 +696,7 @@ mission "ScS Union Shadows"
 					goto pirates
 				`	"Is one of you the visitor of the Rolling Stone?"`
 					goto shezza
-				`	"What is your businss with the unions?"`
+				`	"What is your business with the unions?"`
 					goto unions
 				`	"Are you part of the Syndicate?"`
 					goto syndicate
@@ -980,7 +980,7 @@ mission "ScS Union Buster 1a"
 			`You wait in the spaceport and after some time a company executive comes to find you.`
 			`	"Captain <last>, thank you so much for your help. If it weren't for you this company would be ruined tomorrow." You wonder if he's going to show his thankfulness with some credit chips, but instead he offers you a job. "The advisors you brought are running damage control, but I'm afraid the mischief's started. Half the employees are trying to unionise, and worse still they're planning to hire a boss secretly, and get him employed here. So unethical, I know! Thing is, we know where the 'boss' is coming from: <planet>."`
 			`	"How does that help us?" you ask.`
-			`	"One of the managers there will know him. Take a manager from there to Earth, and he can vet the canditates and catch this fake applicant."`
+			`	"One of the managers there will know him. Take a manager from there to Earth, and he can vet the candidates and catch this fake applicant."`
 			`	"Sounds like a plan," you say. "What's the payment."`
 			`	"Um," he looks around for a moment, "I'll talk to my boss. The <planet> manager's department will pay you when you get to earth."`
 				accept
@@ -1127,7 +1127,7 @@ mission "ScS Amazons 1"
 		
 			label centre
 			`	"Spoken like a true committee, with no understanding of people."`
-			`	"Still," says another, "that would put you beteween the two main Syndicate HQs, better placed to influence them." And so it goes on."`
+			`	"Still," says another, "that would put you between the two main Syndicate HQs, better placed to influence them." And so it goes on."`
 				goto argument
 	
 			label core
@@ -1259,7 +1259,7 @@ mission "ScS Downs 1"
 				`	"You know all my record, so you know."`
 					goto record
 			label record
-			`	"Yes I do." Although, you think, his beaurocracy seems to have missed out informing him of your work for Arnold.`
+			`	"Yes I do." Although, you think, his bureaucracy seems to have missed out informing him of your work for Arnold.`
 				goto yes
 			label pay
 			`	"More than you could imagine. IF you fulfil your duties well.`
@@ -1361,7 +1361,7 @@ mission "ScS Coventry 1"
 			`	"Well done, Captain <last>", he says once comfortably seated again. "You are a skilled pilot, and a useful asset." He leaves you standing as he turns his attention to many files on his desk, making no sound. It's eerily quiet; even the turning of pages is almost inaudible. It comes as a shock when he speaks again.`
 			`	"I don't have problems, Captain <last>. I solve problems. But, some workers are being a problem. What does that mean, Captain <last>?"`
 			`	You look at him with no answer.`
-			`	"It means I solve them, and they stop being. In this case, the problems are a group of scientists on Placer. They are resigning en masse, which is hardly something new - as if they think they're clever or something - The problem is, though, a few of them are privy to sensitive information. I have them in a beaurocratic loop trying to find transport, but it won't last forever: But they must not leave the planet!`
+			`	"It means I solve them, and they stop being. In this case, the problems are a group of scientists on Placer. They are resigning en masse, which is hardly something new - as if they think they're clever or something - The problem is, though, a few of them are privy to sensitive information. I have them in a be autocratic loop trying to find transport, but it won't last forever: But they must not leave the planet!`
 			`	"Captain, I shall need you on standby for a few weeks. Make sure you have a ship capable of combat, and be ready in Deadman's Cove. When I give the command, you will fly to the Mirach system in pirate colours, take out the traitors' ship, and return to change back to your normal self. Do you understand?"`
 			`	"...Yes, Sir!" You try to sound like you mean it.`
 			`	What to do! You're being asked to murder a whole group of innocent people! You'd better go to your friends on <planet> and see if they have any ideas.`

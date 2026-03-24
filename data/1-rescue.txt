@@ -15,7 +15,7 @@ mission "ScS Get Rich 0"
 		conversation
 			`When you land, you find a message from an uncle of yours, who's a CEO of a large company within the Syndicate.`
 			`	"Hi, <first>, come and meet me on <planet>. I have an opportunity for you that could make you respectable again."`
-			`	It's signed, Uncle William. Knowing your uncle, by resepctable, he means rich. <planet> is in the <system> system.`
+			`	It's signed, Uncle William. Knowing your uncle, by respectable, he means rich. <planet> is in the <system> system.`
 			choice
 				`	Time to find Riches and Glory.`
 					accept
@@ -51,8 +51,8 @@ mission "ScS Get Rich 1a"
 			label profits
 			`	"Profits... now I know you're joking.`
 			label life
-			`	"Well, it's not the life your grandmother would have wanted for you, but I'm proud of you anway. Look at you in your big... ship. Anyway there's profit a-plenty to go around, now the Southern Militia have started shooting up the Republic. The Syndicate's in trouble, you know, many companies on the verge of bankrupcy, capital in the wrong hands, employees forming unions... But a war will bring the money back, it always does. And anyone in the right place to help... can become very respectable off this." You remember to translate in your head, respectable -> rich.`
-			`	"Well I didn't call you here for a philosophy class, you're a star-captain now and there's oppotunities to be had. You could become very valuable to the right people, and they'll be valuable to you in return. Now's just the time for oppotunity," he repeats.`
+			`	"Well, it's not the life your grandmother would have wanted for you, but I'm proud of you anyway. Look at you in your big... ship. Anyway there's profit a-plenty to go around, now the Southern Militia have started shooting up the Republic. The Syndicate's in trouble, you know, many companies on the verge of bankruptcy, capital in the wrong hands, employees forming unions... But a war will bring the money back, it always does. And anyone in the right place to help... can become very respectable off this." You remember to translate in your head, respectable -> rich.`
+			`	"Well I didn't call you here for a philosophy class, you're a star-captain now and there's opportunities to be had. You could become very valuable to the right people, and they'll be valuable to you in return. Now's just the time for opportunity," he repeats.`
 			choice
 				`	"What kind of opportunity?"`
 					goto opportunity
@@ -127,7 +127,7 @@ mission "ScS Get Rich 1b"
 			`	The executives from Fernware Inc. are waiting in a private room of the spaceport. You greet them warmly and have one of your staff show them to their rooms ready to travel.`
 				accept
 	on visit
-		dialog "You'll need luxury accommmodations and space for six passengers for the next mission."
+		dialog "You'll need luxury accommodations and space for six passengers for the next mission."
 	on complete
 		payment 50000
 		conversation
@@ -193,9 +193,9 @@ mission "ScS Catch a Fly 1"
 			`	"Anyway, how are you doing?" you ask. "I've been half way round the galaxy since last we met."`
 			`	"Oh, quite well, quite well. A touch of rheumatism," he complains, "but nothing to complain of.`
 			`	"I saw your system logs a few minutes ago, very promising, very promising. But there's more urgent business at hand. The whole Syndicate is gearing up to supply the war engines to do what they like to each other, (that's their freedom, and who are we to fetter them,) but certain individuals are doing their utmost to get in the way and cause problems. One, in particular, is hell-bent on damaging production at every reactor he visits - and he visits a lot."`
-			`	"How does he do that?" you ask, imagining cut cables and mysterious assasinations.`
+			`	"How does he do that?" you ask, imagining cut cables and mysterious assassinations.`
 			`	"He inspects them.`
-			`	"He inspects them, and then he reports them. And he's become a terrible nusiance right when we need production at its highest.`
+			`	"He inspects them, and then he reports them. And he's become a terrible nuisance right when we need production at its highest.`
 			`	"We've found out he's on <planet> now," he continues, "and have blocked all chance of him leaving. What we need you to do is fly an agent - who will meet you here shortly - to <planet> to flush him out of wherever he's hiding. And for that, you need to be flying Syndicate colours. Those In Charge have deemed you trustworthy and suitable for more important jobs, like this."`
 			branch available
 				not "chosen sides"
@@ -280,7 +280,7 @@ mission "ScS Catch a Fly 2"
 				accept
 	on stopover
 		conversation
-			`You contact the final manager and go to meet him in person, as asked. He hears your news and grumbles something about production quotas, but goes off to make arrangmenets.`
+			`You contact the final manager and go to meet him in person, as asked. He hears your news and grumbles something about production quotas, but goes off to make arrangements.`
 			`	Time to return to <planet> to check in with Uncle WC.`
 	on complete
 		payment 50000
@@ -449,7 +449,7 @@ mission "ScS An Edge 0"
 mission "ScS An Edge 1"
 	landing
 	name "Ionic Afterburner"
-	description "Test new afterberner technology by flying through the pirate system of <waypoints> with it, then return to <planet>."
+	description "Test new afterburner technology by flying through the pirate system of <waypoints> with it, then return to <planet>."
 	source Hephaestus
 	waypoint Almach
 	to offer
@@ -778,7 +778,7 @@ mission "ScS Wifery Help 1"
 					goto maurissa
 	
 			label awkward
-			`	"You know, Uncle William, he goes away a lot on buisiness." You hesitate. "And... he goes to a lot of planets. And... he spends a lot of time there. And... well, I'm sorry, there's no good way of putting it, he got married again. Several times. Keeping different wives on different planets." There's a stunned silence.`
+			`	"You know, Uncle William, he goes away a lot on business." You hesitate. "And... he goes to a lot of planets. And... he spends a lot of time there. And... well, I'm sorry, there's no good way of putting it, he got married again. Several times. Keeping different wives on different planets." There's a stunned silence.`
 				goto tears
 	
 			label maurissa
@@ -879,7 +879,7 @@ mission "ScS Negotiation 1"
 	on offer
 		conversation
 			`The suited man reaches you almost out of breath.`
-			`	"Captian <last>!" he exclaims. "I'm so glad I saw you! I am Professor Egelbert Lenforth, of the Syndicate Senior Executive Committee. I urgently need to get to <planet>, and you can take me."`
+			`	"Captain <last>!" he exclaims. "I'm so glad I saw you! I am Professor Egelbert Lenforth, of the Syndicate Senior Executive Committee. I urgently need to get to <planet>, and you can take me."`
 			choice
 				`	"Absolutely Sir, right this way."`
 					accept
@@ -1030,7 +1030,7 @@ mission "ScS Fight Club 1b"
 mission "ScS Fight Club 2"
 	landing
 	name "Stage a fight"
-	description "Stage a fight aganist pirates over <destination>. Make sure not to kill the fake pirates though."
+	description "Stage a fight against pirates over <destination>. Make sure not to kill the fake pirates though."
 	source Sundive
 	destination Maker
 	on fail
@@ -1401,7 +1401,7 @@ mission "ScS Marketing 2"
 		has "ScS Marketing 1: done"
 	on offer
 		conversation
-			`On <origin> you show the Syndicate's promotional materials to the Navy. An admiral named Danfoth, or something, is none too pleased when you encourage them to think freely about sending fleets down to the 'rebel worlds'. Apparently he's part of some group that's decided not to take part in the fighting there.`
+			`On <origin> you show the Syndicate's promotional materials to the Navy. An admiral named Danforth, or something, is none too pleased when you encourage them to think freely about sending fleets down to the 'rebel worlds'. Apparently he's part of some group that's decided not to take part in the fighting there.`
 			`	Time to move on to the paradise planet of <planet>.`
 				accept
 
@@ -1520,7 +1520,7 @@ mission "ScS Quarg Query"
 		log `Asked one of the alien Quarg about the galactic war. It didn't have much to offer, except a warning that humanity could be entirely destroyed if war goes too far.`
 		conversation
 			`The aliens who live on this moon are called the 'Quarg', and although distrusted by many throughout the galaxy they are known to be both disproportionately powerful and incorruptably peaceful. Whether that's really true or just their own propaganda, you don't know, but seeing how things have been going in Syndicate space, you think it's worth giving them a try.`
-			`	Feeling rather lost you wander through the outpust, keeping your oxygen mask to breathe comfortably in the thin air. It makes for akward talking when you do find a Quarg to ask questions to, but somehow you manage. The Quarg is curious about you too, and asks a few questions about your home, before you pluck up courage to ask it about your own concerns.`
+			`	Feeling rather lost you wander through the outpust, keeping your oxygen mask to breathe comfortably in the thin air. It makes for awkward talking when you do find a Quarg to ask questions to, but somehow you manage. The Quarg is curious about you too, and asks a few questions about your home, before you pluck up courage to ask it about your own concerns.`
 			choice
 				`	"What do you think of the war between the Republic and the Free Worlds?"`
 				`	"What do you think of the so-called Free Worlds' rebellion?"`

@@ -624,7 +624,7 @@ mission "ScS Wifery 3c"
 			`	"And where will you take her," asks Amanada. "Will you be sure he can't come after her?"`
 			`	"Very well," you say, "I will take him out first. We can't have bounty-hunting pirates coming after my very own aunts."`
 			label takeout
-			`	Relief washes over Felicity's face. "Thank you so much. Thank you Captiain. I..." and she dissolves back into tears. You'd better go and find this pirate.`
+			`	Relief washes over Felicity's face. "Thank you so much. Thank you Captain. I..." and she dissolves back into tears. You'd better go and find this pirate.`
 			`	Amanda gives you the name: apparently he calls himself the Engulfer of Youth.`
 				accept
 	
@@ -834,7 +834,7 @@ mission "ScS Wifery 4d"
 		fail "ScS Wifery 4e"
 		conversation
 			`As you come in to land on <planet>, you take a wide sweep through open fields and - as low and slow as you can - across a gala happening beneath. There's a huge billboard, clearly visible from your height, of "Maurissa and William Washermann, proud owners of Watersoft, and sponsors of 'Save Our Rice-Runners Year'."`
-			`	A wail starts from a window of your ship. Filled with expletives, Gael denounces 'that hussy' and pours scorn on every aspect of Maruissa's apperance, starting and ending with "she's so old and ugly and doesn't deserve a single piece of my William!"`
+			`	A wail starts from a window of your ship. Filled with expletives, Gael denounces 'that hussy' and pours scorn on every aspect of Maruissa's appearance, starting and ending with "she's so old and ugly and doesn't deserve a single piece of my William!"`
 			`	Gael storms onto the bridge and demands you land, "right now, right at that gala. Fly through the billboard if you can. Blow that hussy's face into the mud."`
 			`	You calmly tell her it's impossible for you to land here, and continue your journey on to the spaceport. When you land, you innocently ask Gael, who was that lady?`
 			`	"Didn't you see that billboard?" she says. "She's clearly some hussy who wants her hands on my William's money."`

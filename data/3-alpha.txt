@@ -129,12 +129,12 @@ mission "ScS Alpha Abduction 3"
 				launch
 	on enter Zaurak
 		dialog
-			`A frantic message comes from the commander as you enter.`
+			`A frantic messagec comes from the commander as you enter.`
 			`	"They headed north! Quick! Don't let them escape!"`
 	to complete
 		or
 			has "ScS Alpha Abduction 3 danforth: done"
-			#has "ScS Alpha Abdcution 3 solo: done"
+			#has "ScS Alpha Abduction 3 solo: done"
 			has "ScS abductors dead"
 
 mission "ScS Alpha Abduction 3 danforth"
@@ -505,7 +505,7 @@ mission "ScS Downey 3"
 mission "ScS Downey 4"
 	landing
 	name "Accosting Benjamin 'Crook' Downey"
-	description "Downey has gone to Buccanner Bay to spend his ill-gotten gains. Join a blockade in <system> ready to catch him as he returns. They'll be waiting in <planet>"
+	description "Downey has gone to Buccaneer Bay to spend his ill-gotten gains. Join a blockade in <system> ready to catch him as he returns. They'll be waiting in <planet>"
 	source Amazon
 	destination "Charybdis Station"
 	on fail
@@ -543,7 +543,7 @@ mission "ScS Downey 5"
 		has "ScS Downey 4: done"
 	on offer
 		conversation
-			`You fly into a bay on <origin>, and keep your scanners running. Now it becomes a patience game, and you don't even know for sure Downey went to Buccanner Bay. After a couple of hours, you get a message from Mary-Jane: "You were right, contacts on Antipode think he went through a few days ago." Another few hours later, another message. "Get ready, he may have just again passed through Matar."`
+			`You fly into a bay on <origin>, and keep your scanners running. Now it becomes a patience game, and you don't even know for sure Downey went to Buccaneer Bay. After a couple of hours, you get a message from Mary-Jane: "You were right, contacts on Antipode think he went through a few days ago." Another few hours later, another message. "Get ready, he may have just again passed through Matar."`
 			choice
 				`	(keep waiting and watch the scanner)"`
 			`	You warm up your engines and watch the scanner. Nothing. You contact traffic control and make sure you're all clear to launch. Still nothing.`
@@ -955,7 +955,7 @@ mission "ScS Villains 4"
 	on abort
 		dialog phrase failure
 	on fail
-		log `Been apprehending various extremists within the Syndicate, and finally Franz Francis Jr and his strange colleages. They're dead now. They'll never trouble the galaxy again.`
+		log `Been apprehending various extremists within the Syndicate, and finally Franz Francis Jr and his strange colleagues. They're dead now. They'll never trouble the galaxy again.`
 		conversation
 			`You look back as you land, to see the smouldering remains on the Great Profit of Heaven. At last, they paid their debt. May all who think to follow in their footsteps take heed.`
 			`	Now you can head back to Amazon in peace.`
@@ -993,7 +993,7 @@ mission "ScS Downey Returns"
 			label what
 			branch truth
 				has "ScS downey truth"
-			`	"After he got acquited from the affair in Delta Capricorni, Downey must have got even more brazen. He's ordered a pirate attack on several Free Worlds systems!!`
+			`	"After he got acquitted from the affair in Delta Capricorni, Downey must have got even more brazen. He's ordered a pirate attack on several Free Worlds systems!!`
 			`	"Then we have to stop it!" you say.`
 			`	"Already on it," says Mary-Jane, "and Syndicate security are aware and shutting it down. But they raided Downey's office, and pirates sprang out of nowhere and gunned down six officials. Downey fled with his entourage."`
 				goto where

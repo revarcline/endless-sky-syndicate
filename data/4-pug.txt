@@ -223,7 +223,7 @@ mission "ScS Corporate Friends 0C"
 		random < 30
 	on offer
 		conversation
-			`To your suprise, your communicator beeps. You ahve a message from Furnace, from the company you helped when a new union tried to start, back before you were chasing superhumans and purging extremists from power.`
+			`To your suprise, your communicator beeps. You have a message from Furnace, from the company you helped when a new union tried to start, back before you were chasing superhumans and purging extremists from power.`
 			`	"Captain <last>, we heard you're in our area of dominated space. We have information you might be interested in.`
 			`		"Signed -- Your Friends on Furnace"`
 				accept
@@ -269,7 +269,7 @@ mission "ScS Corporate Friends 1"
 			choice
 				`	"Then you have to help me find them!"`
 				`	"Do you know where they are?"`
-			`	Even as you speak, you hear a rumble nearby, and from a hidden hangar, just visible between buidlings, you see a Bounder slowly emerge.`
+			`	Even as you speak, you hear a rumble nearby, and from a hidden hangar, just visible between buildings, you see a Bounder slowly emerge.`
 			`	"There!" he shouts. "There! Quick!"`
 			`	You dash to your ship, and take to the sky behind the Alphas.`
 				launch
@@ -302,7 +302,7 @@ mission "ScS Corporate Friends 1"
 			label tracker
 			`	"Yeah, with the hyperlink network broken, it's no surprise this doesn't work. And the Alphas, they must have stolen some sort of jumping hyperdrive from the alien ship. Looks like you're stuck with us."`
 			`	"I have to follow them!" you protest. "Somehow!"`
-			`	He smiles slowly. "Well, you're going to need one of those 'jump drives' too, aren't you. But you can't just shoot up an alien ship, the mob will collpase on you quicker than you can sneeze.`
+			`	He smiles slowly. "Well, you're going to need one of those 'jump drives' too, aren't you. But you can't just shoot up an alien ship, the mob will collapse on you quicker than you can sneeze.`
 			`	"Join us. Join us and resist the Pug, and get yourself a jump drive in the fray. Then we have contacts on the outside who can help get your tracker working again."`
 			choice
 				`	"Okay, I'm in."`
@@ -684,7 +684,7 @@ mission "ScS Final Hunt"
 
 conversation "ScS Finale"
 	action
-		log `It was epic. It was frightening. But at last, I rescued the four women still in captivity of the Alphas. Well... I found them, and saved them from being molested by the Alphas for breeding. At long last, Admiral Danforth and the Navy came and destroyed the Alpha base and rescued us. Apparently the Civil War is all over now, the galaxy's hyperlanes are restored, adn everything is at peace, of some sort. And, since I picked up the Alphas' Bounder, which was stuffed full of alien outfits including a jump drive, I can now explore the galaxy beyond human space. If I want. Maybe I'll live a peaceful life as a merchant captain instead... who knows.`
+		log `It was epic. It was frightening. But at last, I rescued the four women still in captivity of the Alphas. Well... I found them, and saved them from being molested by the Alphas for breeding. At long last, Admiral Danforth and the Navy came and destroyed the Alpha base and rescued us. Apparently the Civil War is all over now, the galaxy's hyperlanes are restored, and everything is at peace, of some sort. And, since I picked up the Alphas' Bounder, which was stuffed full of alien outfits including a jump drive, I can now explore the galaxy beyond human space. If I want. Maybe I'll live a peaceful life as a merchant captain instead... who knows.`
 		log `People` `Nikki and Vicky` `At last Vicky was also rescued, along with the other three women, the last of the Alphas' captives.`
 		event "at war with the pug"
 		event "battle for delta capricorni"
@@ -832,7 +832,7 @@ mission "ScS Epilogue Amazons"
 				`	(yes)`
 				`	(no)`
 					decline
-			`	The Amazons have taken up residence in a huge, domed glass house, filled like an arboreum with trees and flowers, and the chattering of birds. Mary-Jane sits at a desk under an enormous, broad-leafed tree, writing letters, but when you arrive she brings you to a ring of tastefully-decorated sofas in the middle of the room, under the apex of the dome. It's a little hot and humid under the glass, but the group here seem to be in their element, and men, as well as women, walk at ease under the branches holding holographic screens as they plan, or debate, or do whatever work it is they do here.`
+			`	The Amazons have taken up residence in a huge, domed glass house, filled like an arboretum with trees and flowers, and the chattering of birds. Mary-Jane sits at a desk under an enormous, broad-leaved tree, writing letters, but when you arrive she brings you to a ring of tastefully-decorated sofas in the middle of the room, under the apex of the dome. It's a little hot and humid under the glass, but the group here seem to be in their element, and men, as well as women, walk at ease under the branches holding holographic screens as they plan, or debate, or do whatever work it is they do here.`
 			`	"<first>! You see we've found a home for ourselves." Mary-Jane relaxes into a sofa like a goddess on holiday. "The Syndicate is still the Syndicate, and we've made our peace with that now. But from here, we watch, we probe, we influence... we make the worlds a better place, for those who want to make an honest living and help others to do so. And you? Are you still chasing threats across the galaxy?"`
 			choice
 				`	"To infinity, and beyond."`

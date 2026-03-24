@@ -40,7 +40,7 @@ conversation "syndicate intro"
 		give ship "Star Queen (Discount)" "Whitewashed Princess"
 
 	`	When you get on board your beautiful ship, the Whitewashed Princess, you are met by a man a bit too well dressed for your comfort, and for a moment you wonder if there's been a terrible mistake and your company thinks it owns your new ship. He greets you in a perfectly expressionless voice, from a perfectly expressionless face.`
-	`	"Welcome aboard the Whitewashed Princess, Captian <last>. I am your co-pilot, and as your second-in-command I can also offer you some advice as you you start your new flying career."`
+	`	"Welcome aboard the Whitewashed Princess, Captain <last>. I am your co-pilot, and as your second-in-command I can also offer you some advice as you you start your new flying career."`
 	choice
 		`	"Thank you. If you have good ideas, not dimwitted ones about 'downsizing executive bonuses,' then I'm all ears."`
 		`	"Just remember that I'm the captain, and I'll let you stay on my ship."`
@@ -233,7 +233,7 @@ mission "Sc Bootstrap 2"
 			label pay
 			`	"You should have got that already. Didn't you check your account?"`
 			`	"10,000 came in," you say. "Where's the rest of the 300,000?"`
-			`	"They must have spent most of it on the ballarinas. The champagne and truffles can't have been cheap either. Anyway if it's money you want, I've found you a lucrative job, one that will pay top dollar - to you this time."`
+			`	"They must have spent most of it on the ballerinas. The champagne and truffles can't have been cheap either. Anyway if it's money you want, I've found you a lucrative job, one that will pay top dollar - to you this time."`
 			`	You mumble something about the working class and how they don't even work properly and take all the money for themselves. Maybe this new job will be better, if it doesn't involve the common rabble.`
 			choice
 				`	"That sounds better, what is it?"`
@@ -534,7 +534,7 @@ mission "Sc Package Delivery 2"
 		dialog `You have failed an essential Syndicate storyline mission, to complete the storyline load from an earlier save or TRY AGAIN YOU USELESS EMPLOYEE!!`
 	on offer
 		conversation
-			`For the first time, in the spaceport, your co-pilot apologises to you.`
+			`For the first time, in the spaceport, your co-pilot apologizes to you.`
 			`	"There's been a mix up," he explains, "the research team are not on New Iceland but New Portland, in the Delta Sagittarii system. We'd better get there quickly."`
 				accept
 
@@ -624,7 +624,7 @@ mission "Sc Package Delivery 5"
 				`	(Tell him about the red flash)`
 					goto flash
 				`	(Tell him the delivery was successful)`
-			`	You walk into Mr Downey's office confident, and tell him how dilligently you worked to bring the package to the right place, even when the information given to you was repeatedly incorrect.`
+			`	You walk into Mr Downey's office confident, and tell him how diligently you worked to bring the package to the right place, even when the information given to you was repeatedly incorrect.`
 				goto pay
 			label flash
 			`	You tell Mr Downey of the red flash you saw, carefully omitting that you threw the package out the airlock moments before. He waves it away nonchalantly and says it must have been some unrelated mining explosion and not to worry about it.`
