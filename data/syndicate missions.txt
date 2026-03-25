@@ -109,7 +109,7 @@ mission "Reluctant Salesman"
 			`	"Going around saying, 'don't sell weapons to pirates,' that's the way to make people hate you. We always have sold to pirates, we always will sell to pirates, you can't change human nature."`
 			`	"Let's try to have a look at this thing..."`
 			choice
-				`	"I dont't sell to pirates! I won't sell to pirates! I don't sell to pirates!"`
+				`	"I don't sell to pirates! I won't sell to pirates! I don't sell to pirates!"`
 			`	"Must have been a bad sale..."`
 			choice
 				`	"Selling weapons to pirates is out!"`

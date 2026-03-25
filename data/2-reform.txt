@@ -476,10 +476,10 @@ mission "ScS Union Thought 1a"
 				goto bosses
 			label bad
 			`	"Sometimes," you say, "unions just make things worse for everyone, including their members."`
-			`	"Union bosses are like company bosses," Arnold replies. "They're people who control other people for their own profit. And, if you're less cyncial, they do some good in the process."`
+			`	"Union bosses are like company bosses," Arnold replies. "They're people who control other people for their own profit. And, if you're less cynical, they do some good in the process."`
 				goto convinced
 			label bosses
-			`	"Union bosses are like company bosses. They're people who control other people for their own profit. And, if you're less cyncial, they do some good in the process."`
+			`	"Union bosses are like company bosses. They're people who control other people for their own profit. And, if you're less cynical, they do some good in the process."`
 			label convinced
 			`	"Okay, you've convinced me," you say, "we'll go and bust the union."`
 			`	"Whoa, whoa, whoa! The workers need someone to stand up for them too. Just because some greedy sod is doing the managing doesn't mean you should blow it sky high. Besides, some union bosses are lovely, genuine, caring people who only want the best for everyone."`
@@ -1237,7 +1237,7 @@ mission "ScS Downs 1"
 	on offer
 		log `Started working for Benjamin Downey, a high-up person in the Syndicate. Really, I'm working for the Amazons, and using Downey to gather information on the corrupt internals of Syndicate leadership.`
 		conversation
-			`You introduce yourself to Downey's lowest-rung receptionist, and gradually up the physical elevators and business heirachy, showing your letter of introduction, till finally you get offered an appointment with Downey himself.`
+			`You introduce yourself to Downey's lowest-rung receptionist, and gradually up the physical elevators and business hierarchy, showing your letter of introduction, till finally you get offered an appointment with Downey himself.`
 			`	"Captain <last>," you say, "<first> <last>."`
 			branch met
 				has "met benjamin downey"
@@ -1404,7 +1404,7 @@ mission "ScS Coventry 1"
 					goto adjourned
 				`	"I... could ask some friends. Maybe they can help."`
 			`	"You'll need to be very careful about it."`
-			`	"I'll be the soul of discresion," you say.`
+			`	"I'll be the soul of discretion," you say.`
 			label adjourned
 			`	"Then the meeting is adjourned for now. Captain, will you take Janet to Reunion to see about a secret transport?"`
 			`	"Yes, I can do that. Let her meet me in the spaceport shortly."`
@@ -1414,7 +1414,7 @@ mission "ScS Coventry 2"
 	landing
 	autosave
 	name "Must the innocent die?"
-	description "You've been ordered to be ready to blow up a ship of innocent scientests. Make what arrangements you can to avoid that, and return to <planet> to finalise plans with the Amazons. You must be back by <day>."
+	description "You've been ordered to be ready to blow up a ship of innocent scientests. Make what arrangements you can to avoid that, and return to <planet> to finalize plans with the Amazons. You must be back by <day>."
 	source Amazon
 	on fail
 		dialog phrase failure
@@ -1536,14 +1536,14 @@ mission "ScS Coventry 3"
 			`	"And how," asks someone, "will you persuade them to do that?"`
 			`	"With money," you say. "And a promise they can keep the ship ...as long as they live. Think about it, we find the most evil, vile, pirate we can, and instead of sending ten ships to hunt them down, and losing two in the process, we just offer a free ship, then rid the world of one more reprehensible pirate."`
 			`	The group's not fully sold on the idea, but they agree it's better than sending one of their own to die.`
-			`	"Very well," says Mary-Jane, "Captain, please go and find such a captain, and ask him to meet in Hephaestus. Then, go to Ada and escort the two Star Queens that will do the operation, and bring them also to Hephaestus, to an engineering team arranged by our Reunioner sisters. After that you should head quickly to Deadman's Cove to await Donwey's call. We'll make sure he gets news just when you're ready, but you must be quick.`
+			`	"Very well," says Mary-Jane, "Captain, please go and find such a captain, and ask him to meet in Hephaestus. Then, go to Ada and escort the two Star Queens that will do the operation, and bring them also to Hephaestus, to an engineering team arranged by our Reunioner sisters. After that you should head quickly to Deadman's Cove to await Downey's call. We'll make sure he gets news just when you're ready, but you must be quick.`
 				accept
 	
 			label automate
 			action
 				set "ScS robot sacrifice"
 			`	"Excellent," says Mary-Jane, and you can see relief wash over everyone's faces, especially Sophie's.`
-			`	"Captain, get this tech from Arnold, and bring it to Hephaestus, to an engineering team arranged by our Reunioner sisters. After that you should head quickly to Deadman's Cove to await Donwey's call. We'll make sure he gets news just when you're ready, but you must be quick.`
+			`	"Captain, get this tech from Arnold, and bring it to Hephaestus, to an engineering team arranged by our Reunioner sisters. After that you should head quickly to Deadman's Cove to await Downey's call. We'll make sure he gets news just when you're ready, but you must be quick.`
 			`	Before you go you check in with Arnold, who says he's already talked with his contacts in the Deep, and the kit will be waiting for you on Hermes.`
 				accept
 	
@@ -2122,7 +2122,7 @@ mission "ScS Extreme Flight 4b"
 	on offer
 		event "albatross joins free worlds"
 		conversation
-			`You look around for Sawyer's secret evidence cache, and wish Mary-Jane had given you more specific directions. Along this corridor... in a room looking like this... is not excatly X marks the spot. At last you find it, in a small cubicle down some stairs and behind a big painting. You pay some dockworkers a little extra to bring it to your ship, and set out on the next stage of the plan:`
+			`You look around for Sawyer's secret evidence cache, and wish Mary-Jane had given you more specific directions. Along this corridor... in a room looking like this... is not exactly X marks the spot. At last you find it, in a small cubicle down some stairs and behind a big painting. You pay some dockworkers a little extra to bring it to your ship, and set out on the next stage of the plan:`
 			`	Pick up Sawyer from a disabled ship in Alnair, and let him off on another in Alderamin. Make sure it's in that order! And not to land with Sawyer on board, or he could be caught.`
 				accept
 	

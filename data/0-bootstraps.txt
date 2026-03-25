@@ -670,7 +670,7 @@ mission "Sc Bootstrap Too-Late"
 			choice
 				`	(Check more buildings)`
 			`	You find a door marked "Entry Strictly Forbidden," and take a look inside. The interior is as drab as the exterior, and you're so bored you start walking dejectedly back to the <ship>. Half way there, who is walking towards you but your co-pilot!`
-			`	"Hello, <first>," he says, "are you still here?" You wince at the informality and ask him if he's forgettng something.`
+			`	"Hello, <first>," he says, "are you still here?" You wince at the informality and ask him if he's forgetting something.`
 	
 			label sorry
 			branch atwar
@@ -723,7 +723,7 @@ mission "Sc Bootstrap Too-Late"
 			`	You do think about it. Then you make him a higher offer.`
 			`	"Two million. That's more than fair, I'm sure you'll make it back quickly."`
 			label twomil
-			`	At last he sighs and accepts your generous offer. Two million credits, and perhaps he'll put in a good word for you with any high-level Syndicate excecutives he meets in his line of duty. Time to return to civilized space, and hope you don't get shot out of the sky on the way.`
+			`	At last he sighs and accepts your generous offer. Two million credits, and perhaps he'll put in a good word for you with any high-level Syndicate executives he meets in his line of duty. Time to return to civilized space, and hope you don't get shot out of the sky on the way.`
 				accept
 	on complete
 		payment 2000000

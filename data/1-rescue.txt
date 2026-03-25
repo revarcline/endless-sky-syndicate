@@ -1465,7 +1465,7 @@ mission "ScS Tarazed Escort 1"
 			choice
 				`	"What news have you for me today?"`
 					goto safe
-				`	"Maybe you shouldn't call other people, 'lesser humainty'."`
+				`	"Maybe you shouldn't call other people, 'lesser humanity'."`
 					goto rock
 			label safe
 			`	You try to avoid rocking the boat too much. After all, these men control your life - at least, they pay you your income, and could probably break you if they wanted to.`
@@ -1669,7 +1669,7 @@ mission "ScS Last Straw 1"
 			label captain
 			`	"Yes, yes," he says, "Captain <last> ...Pilot extraordinaire."`
 			`	"Captain extraordinaire," you correct him.`
-			`	"Pilot <last>, captain extraordinare." He seems determined to pretend he was right; you let it drop.`
+			`	"Pilot <last>, Captain extraordinaire." He seems determined to pretend he was right; you let it drop.`
 			label yes
 			`	"I have a problem with my workers," he explains. "They're always a problem, working too slow, demanding too much, fussing they've got a cold, or a 'family issue'- you know they want me to pay them those times too, when they stop working for their own reasons. Daft, isn't it. But I have one group that recently has been particularly troublesome, working too slow, refusing to stay and finish their work when the clock strikes - and then they say I should pay them 'for the full time', as if they did a full day's work. Lazy sluggards."`
 			`	"What they need is a spell of real hard work, on Burthen. Let them do with their backs, in Burthen's high gravity, what we do with our minds in high stress. They'll grow strong. And less complaining, and more thankful for what they've got."`

@@ -496,7 +496,7 @@ mission "ScS Downey 3"
 				accept
 			label truth
 			action
-				log `Faught off an attack on a Syndicate world by rogue militia. Don't know for sure how Downey knew about it in advance, so I just told the truth.`
+				log `Fought off an attack on a Syndicate world by rogue militia. Don't know for sure how Downey knew about it in advance, so I just told the truth.`
 				set "ScS downey truth"
 			`	"I see," says the executive. "He does have spies everywhere; he must have got a tip-off. Thank you again for your assistance, and I'll relay your information, and your success, to the higher-ups."`
 			`	The system is safe, but you have nothing on Downey. You'd better go back to the Amazons and see what to to next.`
@@ -946,7 +946,7 @@ mission "ScS Villains 4"
 				`	"Well it wasn't worth very much, was it."`
 				`	"And now you have nothing left."`
 			`	"We brought peace to the galaxy!" shouts another. "It was going to be like a tree... a beautiful treee..." his trails off into whining.`
-			`	Another chimes in. "Now we fall, and the Syndicate falls. Who will look after the galaxy when we're gone?" And another, "Think of the customers, the poor, disinfranchised customers..."`
+			`	Another chimes in. "Now we fall, and the Syndicate falls. Who will look after the galaxy when we're gone?" And another, "Think of the customers, the poor, disenfranchised customers..."`
 			`	"You could have been great," says Franz.`
 			`	"I am," you reply. "I became great by opposing evil. By opposing you."`
 			`	"If you spring us, a reward of fifty m-"`
