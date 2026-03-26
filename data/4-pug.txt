@@ -61,7 +61,7 @@ mission "ScS Tracking 2"
 		event "fw syndicate welcoming"
 		"reputation: Free Worlds" >?= 1
 		conversation
-			`The spaceport is strangely quiet when you land, like the peace after a violent storm, but you see no sign of violence. The strange, yellow ships can still be seen overhead, and a few are parked on bays. Patrolling the spacport are small groups of slender, bipedal, pale-skinned creatures. Are they some creation by the Alphas? The next evolution or genetic modification of the Alphas themselves? Or perhaps an alliance with aliens! Any way you look at is, this could be big trouble.`
+			`The spaceport is strangely quiet when you land, like the peace after a violent storm, but you see no sign of violence. The strange, yellow ships can still be seen overhead, and a few are parked on bays. Patrolling the spaceport are small groups of slender, bipedal, pale-skinned creatures. Are they some creation by the Alphas? The next evolution or genetic modification of the Alphas themselves? Or perhaps an alliance with aliens! Any way you look at is, this could be big trouble.`
 			`	Your tracker has stopped working, and when you try to send a message to Arnold or Mary-Jane, the hyperlink network isn't connecting. Apparently everything is under the control of these pale-skinned creatures now. You'd better start finding out what's going on and how far this take-over has spread. Maybe you should look on some other planets.`
 				accept
 	on enter
@@ -200,7 +200,7 @@ mission "ScS Corporate Friends 0U"
 		random < 30
 	on offer
 		conversation
-			`To your suprise, your communicator beeps. You have a message from Furnace, from the union you helped get started, back before you were chasing superhumans and purging extremists from power.`
+			`To your surprise, your communicator beeps. You have a message from Furnace, from the union you helped get started, back before you were chasing superhumans and purging extremists from power.`
 			`	"Captain <last>, we heard you're in our area of dominated space. We have information you might be interested in.`
 			`		"Signed -- Your Friends on Furnace"`
 				accept
@@ -223,7 +223,7 @@ mission "ScS Corporate Friends 0C"
 		random < 30
 	on offer
 		conversation
-			`To your suprise, your communicator beeps. You have a message from Furnace, from the company you helped when a new union tried to start, back before you were chasing superhumans and purging extremists from power.`
+			`To your surprise, your communicator beeps. You have a message from Furnace, from the company you helped when a new union tried to start, back before you were chasing superhumans and purging extremists from power.`
 			`	"Captain <last>, we heard you're in our area of dominated space. We have information you might be interested in.`
 			`		"Signed -- Your Friends on Furnace"`
 				accept
@@ -241,7 +241,7 @@ mission "ScS Corporate Friends 1"
 	on offer
 		fail "ScS Tracking 2"
 		conversation
-			`As you step off your ship, a dockworker recognises you. "Psst, come this way," he says.`
+			`As you step off your ship, a dockworker recognizes you. "Psst, come this way," he says.`
 			branch union
 				has "ScS Unionise 3: done"
 			`	You follow as he leads you round the back of your ship to a tall, glass office. Inside are executives from the company you helped, and they shake your hand warmly.`
@@ -458,7 +458,7 @@ mission "ScS Corporate Friends 2U"
 			`	"We don't know how this fight will go, but we have to try. When you get up there, board an alien ship as quick as you can and grab a jump drive. Help us out fighting if you can, then go to Delve, to our sister union. They'll help you fix the tracker to catch the Alphas. Good luck."`
 				accept
 	on accept
-		"reputaion: Pug" <?= -100
+		"reputation: Pug" <?= -100
 		fail "ScS Tracking 3"
 		fail "ScS Pug Support 1"
 		event "ScS civilian resistance"
@@ -491,7 +491,7 @@ mission "ScS Corporate Friends 2C"
 			`	"We don't know how this fight will go, but we have to try. When you get up there, board an alien ship as quick as you can and grab a jump drive. Help us out fighting if you can, then go to <planet>, to this research group." He hands you a card. "They'll help you fix the tracker to catch the Alphas. Good luck."`
 				accept
 	on accept
-		"reputaion: Pug" <?= -100
+		"reputation: Pug" <?= -100
 		fail "ScS Tracking 3"
 		fail "ScS Pug Support 1"
 		event "ScS civilian resistance"
@@ -722,13 +722,13 @@ conversation "ScS Finale"
 		`	(wait)`
 	`	Crouching low, you wait for the argument to finish, and watch as one of the soldiers leads the women near to you, and through another door out of sight. From the shadows, you catch the eye of one of the women, and her face lights up: the fear vanishes, and she walks with confidence. Luckily, the Alphas don't seem to have noticed.`
 	`	When all is quiet, you creep round the wall, and find the door. It opens onto a big, sterile room full of scientific gadgets, and rows of what look like hospital beds. The women are by themselves, sitting on beds at the back. Suddenly there's a clamour, and a shout of, "Hey! Wha-"`
-	`	You draw your gun, and fire: not at the Alpha, but at the medical instruments. Bang! Bang! Crash!- glass goes flying, pressurised air spurts out, machines crumple; and you're thrown to the floor by powerful arms from behind, as your magazine empties its last shot. Your last vision is of an evil, green face, as your head is pulled round to see, or be seen, and a fist lands on it.`
+	`	You draw your gun, and fire: not at the Alpha, but at the medical instruments. Bang! Bang! Crash!- glass goes flying, pressurized air spurts out, machines crumple; and you're thrown to the floor by powerful arms from behind, as your magazine empties its last shot. Your last vision is of an evil, green face, as your head is pulled round to see, or be seen, and a fist lands on it.`
 	choice
 		`	(wake up)`
 	`	You awake in a cold, stone room, on a cold, stone bench, but the warm faces of four young women watching over you.`
 	`	"You're awake!" says one. "Thank God you're okay," says another.`
 	`	"I... yeah, I'm okay," you say, stretching your sore back. "Where are we?"`
-	`	"When you shot out those machines, the green men couldn't do whatever they had planned, and got really angry." The voice and face are unmistakeable, and belong to Vicky, Nikki's twin. "They took us here and," she points to some gruel in a dish on the floor, "gave us food. They need us healthy for whatever experiment it is they're doing. But how did you get here?"`
+	`	"When you shot out those machines, the green men couldn't do whatever they had planned, and got really angry." The voice and face are unmistakable, and belong to Vicky, Nikki's twin. "They took us here and," she points to some gruel in a dish on the floor, "gave us food. They need us healthy for whatever experiment it is they're doing. But how did you get here?"`
 	`	"I've been chasing you ever since the abduction," you say. "From system to system, from ship to ship."`
 	`	"And Nikki?" she asks.`
 	`	"Safe, heading back to your grandma."`
@@ -761,7 +761,7 @@ conversation "ScS Finale"
 	`	But there's no way through. Not with the patrols on the alert. Besides, if you got there, they'd probably blow it out of the sky with anti-air guns.`
 	`	"Captain, thank you." One of the girls takes your hand. "We'll be okay, I'm sure we will. Now that you've rescued us."`
 	`	Continuing wherever you can stay out of sight, you find a cave, and hide inside. Minutes turn to hours, no one comes, and you get hungry.`
-	`	"Captain <last>. I'm Vicky. These are Emily, Asmita and Christina. Did you come for us, or have you another errand you must get to?" The speaker is unmistakeable as Nikki's twin.`
+	`	"Captain <last>. I'm Vicky. These are Emily, Asmita and Christina. Did you come for us, or have you another errand you must get to?" The speaker is unmistakable as Nikki's twin.`
 	`	"I came for you," you say. "I've been following you since the abduction, from system to system, from ship to ship. We rescued some of your group; it's just the four of you left."`
 	`	"And Nikki?"`
 	`	"Safe, heading back to your grandma."`
@@ -808,7 +808,7 @@ conversation "ScS Finale"
 	label talk
 	`	Back in the spaceport you find the rescued women, and Danforth, who fills you in on what's been going on. An eerily familiar captain walks by in the distance, but you pay them no mind, as Danforth continues talking.`
 	`	"So, the Pug didn't take over the galaxy?" you ask.`
-	`	"No! The Navy, Syndicate and Free Worlds joined together to drive them out, and at last we managed to restore the hyperlinks to the rest of the galaxy. Then at the end, the final battle, they vanished! Through a new wormhole in their home sytem, with no trace on the other side!`
+	`	"No! The Navy, Syndicate and Free Worlds joined together to drive them out, and at last we managed to restore the hyperlinks to the rest of the galaxy. Then at the end, the final battle, they vanished! Through a new wormhole in their home system, with no trace on the other side!`
 	`	"After that, we came to fight here. Would you believe, the real instigators of the civil war were indeed an extremist faction within the Syndicate, and Korban himself, the CEO, had been fraternising with Alphas."`
 	`	"I rather would," you say.`
 	`	"Well, Korban won't be CEO for much longer, and the galaxy is at peace again. I'm glad you completed your mission. We've lost so many lives, it's a pleasure to save these four."`

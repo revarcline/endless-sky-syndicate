@@ -48,7 +48,7 @@ More catching extremists. ScS Villains:
   - news if lied: downey freed
   - -> next stage of alpha chase
   - event: deep sky tech available
-  - event: navy out of rastaba
+  - event: navy out of rastaban
   - event: fw tarazed joins
 - 3, 3 return, land on Quicksilver/Algol w/ four amazons to chase out extremists
 - 4, 4 return, Franz' group on Hephaestus in a Protector. Kill or disable

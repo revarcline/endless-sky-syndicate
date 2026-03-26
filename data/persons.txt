@@ -6,7 +6,7 @@ person "Analogue"
 		word
 			"You see, it's like this, and like this, and like this."
 			"The moon goes tick, tick, tick, tick"
-			"What's a bird of prey with infinite variablility?"
+			"What's a bird of prey with infinite variability?"
 			"Now you see me, soon you won't."
 	frequency 100
 	ship "Gull (Analogue)" "Analogue"

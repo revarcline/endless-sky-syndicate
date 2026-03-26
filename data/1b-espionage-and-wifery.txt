@@ -442,7 +442,7 @@ mission "ScS Wifery 2c"
 			label sorry
 			`	"I'm sorry too," she says. "It's hard to find someone, working out here, and although William was gone a lot of the time I was happy to think he was out there, waiting to come back to me. I think it's better he doesn't come back now.`
 			`	"Look, I hope we can know each other in the future, in better circumstances, and thank you for the lovely gift and the flowers - you must have looked after them well to keep them from wilting on your travel through space. But I need some time alone. We have a list here at the campus of persona non grata, I'll see that Mr WC Washermann is added to that list; but if you come again, you're always 'grata'. Safe travels, Captain <last>, safe travels."`
-			`	She seems exhausted but otherwse okay. You write down Lily's contact details, and tell her to call her if she ever needs help. With that, you bid farewell and make your way back to your ship. Next stop: back to Lily to see about meeting Susanna.`
+			`	She seems exhausted but otherwise okay. You write down Lily's contact details, and tell her to call her if she ever needs help. With that, you bid farewell and make your way back to your ship. Next stop: back to Lily to see about meeting Susanna.`
 				accept
 
 mission "ScS Wifery 2d"
@@ -484,7 +484,7 @@ mission "ScS Wifery 2d"
 			`	"Um, no," you hesitate- "his personal houses. I think he has one on every world he goes to."`
 			`	"You think! You silly goose, you must be confused. He has his house here, and he's so focused on business when he goes off-world I can't imagine he sleeps in anything more than a converted office, if he doesn't go back to a plain hotel every night. You mean a maid at one of his offices, don't you?" You detect a hint of panic in her voice.`
 			`	"I'm afraid, I have some bad news, Aunt Susanna." The 'Aunt' softens her a bit, but as she reads Lily's message her face grows redder and redder, until she bursts out in the vocal equivalent of a slow-motion explosion.`
-			`	"This can't be right! This is a fake! You're one of William's rivals tring to trick me into betraying him! I don't think you're his relative at all! Maybe you want me for yourself! That's disgusting!"`
+			`	"This can't be right! This is a fake! You're one of William's rivals trying to trick me into betraying him! I don't think you're his relative at all! Maybe you want me for yourself! That's disgusting!"`
 			choice
 				`	"I promise you, it's the truth."`
 					goto truth
@@ -519,7 +519,7 @@ mission "ScS Wifery 2d"
 			label yes
 			`	"I will join you in the spaceport later," says Amanda. "I hope your cabins are not too primitive."`
 			`	"Farewell, Aunt Susanna," you call as you leave. "And see you soon, Aunt Amanda." All these aunts! Still, they're not bad folk, and give you a feeling of family as you fly out across the galaxy.`
-			`	(Meet Aunt Amanda in the spaceport later with a bunk free, to take her onwaard to Zaurak.)`
+			`	(Meet Aunt Amanda in the spaceport later with a bunk free, to take her onward to Zaurak.)`
 
 mission "ScS Wifery 2e"
 	priority

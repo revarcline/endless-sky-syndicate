@@ -153,8 +153,8 @@ mission "ScS Check the Navy"
 			`	Around the room you can see there are many senior managers in Uncle WC's own Watersoft, as well as various representatives of other companies.`
 			choice
 				`	"And where do I come in?"`
-			`	"Ah yes," he says. "We're not sending you back to herding factory hands, now you're a 'great space voyager', nor herding these very fine specimins of cattle you've brought here." You hear some muttering among the visiting executives. The fact is, your uncle explains, in more and less polite words than you care to remember, war is heating up and everyone wants a slice of the profit. But they need to know what might happen next, and how fast things are moving, and for that they need you.`
-			`	"There's a Navy garrison in the Alheka system. Fly around there a bit and see what activity is like. Bring us back your scanner logs so we can take a guess if the Navy are building up fast for fighting." You wonder if everyone will just sit there waiting patiently for you to get back in a few days, or if they'll reconvene when you return unnanounced.`
+			`	"Ah yes," he says. "We're not sending you back to herding factory hands, now you're a 'great space voyager', nor herding these very fine specimens of cattle you've brought here." You hear some muttering among the visiting executives. The fact is, your uncle explains, in more and less polite words than you care to remember, war is heating up and everyone wants a slice of the profit. But they need to know what might happen next, and how fast things are moving, and for that they need you.`
+			`	"There's a Navy garrison in the Alheka system. Fly around there a bit and see what activity is like. Bring us back your scanner logs so we can take a guess if the Navy are building up fast for fighting." You wonder if everyone will just sit there waiting patiently for you to get back in a few days, or if they'll reconvene when you return unannounced.`
 			`	"And while you're at it, there's talk of new Navy bases on New Wales and New Austria. Check them out too, and see what sort of Navy ships are in the area."`
 				accept
 	on waypoint
@@ -389,7 +389,7 @@ mission "ScS Espionage 1"
 				`	(Turn around calmly)`
 					goto calm
 			label spooked
-			`	Thoroughly spooked, you spin back 180 degrees and dash for your ship. You hit the engines and leave in a cloud of smoke without waiting for clearance. Bumbling an apology to air traffic control about an emergency for one of your passangers, you thrust into space and breathe a sigh of relief.`
+			`	Thoroughly spooked, you spin back 180 degrees and dash for your ship. You hit the engines and leave in a cloud of smoke without waiting for clearance. Bumbling an apology to air traffic control about an emergency for one of your passengers, you thrust into space and breathe a sigh of relief.`
 				launch
 			label calm
 			`	Slowly you turn back round and steel your nerves. The walk back to your ship seems to take forever, but you climb in, radio air traffic control, and leave as casually as you can.`
@@ -564,7 +564,7 @@ mission "ScS Wifery 1"
 	landing
 	autosave
 	name "Pray they Never Meet"
-	description "Take one of Uncle WC's wives on a holday so another wife doesn't accidentally meet her. You'll find Maurissa on <destination>."
+	description "Take one of Uncle WC's wives on a holiday so another wife doesn't accidentally meet her. You'll find Maurissa on <destination>."
 	source Moonshake
 	destination Foundry
 	to offer
@@ -654,7 +654,7 @@ mission "ScS Wifery 1"
 			
 			label truth
 			`	She watches your expression with an opaque look.`
-			`	"I... know," she says after a while, and looks at the shiny pamphlets in your hand. "It's not hard to guess. The long trips away, he doesn't write, never wants to travel together or take me to his other homes - which I know he has. He always leaves right when he gets bored of me. Oh he keeps me well, meaning a nice house, good food, and plenty of money left over for myeself. I've thought of trying to contact the other women, to let them know, but..."`
+			`	"I... know," she says after a while, and looks at the shiny pamphlets in your hand. "It's not hard to guess. The long trips away, he doesn't write, never wants to travel together or take me to his other homes - which I know he has. He always leaves right when he gets bored of me. Oh he keeps me well, meaning a nice house, good food, and plenty of money left over for myself. I've thought of trying to contact the other women, to let them know, but..."`
 			`	"You know he actually married them, right?"`
 			`	"Oh yes. Billie may be a charmer when he wants to, and he might have perfect diplomacy in the office for all I know, but at home he lets out hints, if you ask the right questions. Just I think they might be happy, each in their peaceful life, imagining their doting husband comes back to them whenever he can from his hard, hard work. I imagine them content, perhaps with children, and I don't want to break their happiness.`
 			`	"But I see now I'm being selfish. They deserve to know, even if they hate me for it. Do you think you could help me?"`
@@ -692,7 +692,7 @@ mission "ScS Wifery 1"
 mission "ScS Wifery Holiday"
 	priority
 	name "Take Maurissa on holiday"
-	description "Take Maurissa on a holday to <destination>, so she doesn't meet a rival wife."
+	description "Take Maurissa on a holiday to <destination>, so she doesn't meet a rival wife."
 	source Foundry
 	destination Sunracer
 	on fail
@@ -744,8 +744,8 @@ mission "ScS Wifery Help 1"
 		not "holidayed WC wife"
 		has "ScS Wifery 1: done"
 	on offer
-		log `It turns out Uncle WC has many wives, on many planets. I revealed the truth to his wife Maruissa, on Foundry, and will take her to meet Amanda, to begin revealing his infedelidy to all his wives.`
-		log `People` `Maurissa Washermann` `One of Uncle WC's wives; lives on Foundry. She knows her husband's infedelity, and has started a campaign to reveal the truth to his other wives.`
+		log `It turns out Uncle WC has many wives, on many planets. I revealed the truth to his wife Maruissa, on Foundry, and will take her to meet Amanda, to begin revealing his infidelity to all his wives.`
+		log `People` `Maurissa Washermann` `One of Uncle WC's wives; lives on Foundry. She knows her husband's infidelity, and has started a campaign to reveal the truth to his other wives.`
 		conversation
 			`In the spaceport Maurissa meets you dressed lavishly and with a small suitcase.`
 			`	"I thought we weren't going on holiday," you say.`
@@ -756,7 +756,7 @@ mission "ScS Wifery Help 1"
 		log `People` `Amanda Washermann` `Uncle WC's first wife. She lives on Crossroads, where WC has his main house and office.`
 		log `People` `Lily` `Amanda Washermann's maid at the house on Crossroads.`
 		conversation
-			`You lead the way to WC's house, and hope Amanda is in. The big, ornate doorbell at the gate makes almost no sound outside, but in a few minutes the front door opens and a maid comes hurrying across the artificial garden to meet you. She recognises you and welcomes you both in.`
+			`You lead the way to WC's house, and hope Amanda is in. The big, ornate doorbell at the gate makes almost no sound outside, but in a few minutes the front door opens and a maid comes hurrying across the artificial garden to meet you. She recognizes you and welcomes you both in.`
 			`	"I'm so sorry, Captain <last>, with Mr Washermann gone we didn't expect guests."`
 			`	"Is Amanda in?" you ask.`
 			`	"Yes, m'lady is upstairs writing letters. I'll tell her you're here."`
@@ -913,11 +913,11 @@ mission "ScS Negotiation 2"
 			#TODO could throw a bit more text here
 			`	"Not this time," says the professor as you get to the door outside the hall outside the meeting room. Private diplomatic meeting, and you're not invited."`
 			label wander
-			`	You head out a different way, and take a look at the Syndicate headquarters a bit. It's pretty boring, really, so you come back. Luckily the meeting didn't take long and the Syndicate leaders are filing out of the hall. One of them you recognise from your meetings with Frans Francis Jr, and he accosts you as he comes out:`
+			`	You head out a different way, and take a look at the Syndicate headquarters a bit. It's pretty boring, really, so you come back. Luckily the meeting didn't take long and the Syndicate leaders are filing out of the hall. One of them you recognize from your meetings with Frans Francis Jr, and he accosts you as he comes out:`
 			`	"One of my colleagues needs to get to <planet>. You don't mind taking him, do you?"`
 			`	"Of course not," you say, not quite sure if you mean it."`
 			`	"Very good, I'll tell him where to find your ship."`
-			`	When you get back to the <ship> you find you have a new passenger, a tall man dressed up in coat and high collar, with a broad-brimmed hat shadowing his face so you can't see any of his features. Either he's extremely worried about sunburn, or he doesn't like to be recognised. He must be the Syndicate colleague bound for <planet>.`
+			`	When you get back to the <ship> you find you have a new passenger, a tall man dressed up in coat and high collar, with a broad-brimmed hat shadowing his face so you can't see any of his features. Either he's extremely worried about sunburn, or he doesn't like to be recognized. He must be the Syndicate colleague bound for <planet>.`
 				accept
 		event "Tarazed neutrality" 14
 
@@ -1184,7 +1184,7 @@ mission "ScS Abduction 2a"
 			`Following directions, you find your way to the office of Benjamin Downey. It takes you many elevators and corridors to reach, with more than one stern-looking security guard to pass on the way.`
 				goto talk
 			label connoire
-			`You find your way to Benjamin Downey's office, where you once went to recieve an extremely generous payment for dropping a package on Clink in the South. Past the security guards and up the lifts, you reach the imposing door and knock.`
+			`You find your way to Benjamin Downey's office, where you once went to receive an extremely generous payment for dropping a package on Clink in the South. Past the security guards and up the lifts, you reach the imposing door and knock.`
 			label talk
 			action
 				set "met benjamin downey"
@@ -1291,7 +1291,7 @@ mission "ScS Marketing 0"
 		has "ScS Rebel Deal 1: done"
 	on offer
 		conversation
-			`The meeting site is an abandoned settlement a thousand kilometres from Tundra's main spaceport. It's an old oil field that ran dry decades ago, and only a few of the landing pads are still useable. The employees who came with you load the equipment from your hold into the Free Worlds ship, which takes off to head back to whatever it is they do down there. You watch the sillhouette of the Free Worlds ship disappear in the distance, and have a funny feeling of deja vu; but it passes quickly, and you head over to the main spaceport.`
+			`The meeting site is an abandoned settlement a thousand kilometers from Tundra's main spaceport. It's an old oil field that ran dry decades ago, and only a few of the landing pads are still useable. The employees who came with you load the equipment from your hold into the Free Worlds ship, which takes off to head back to whatever it is they do down there. You watch the silhouette of the Free Worlds ship disappear in the distance, and have a funny feeling of deja vu; but it passes quickly, and you head over to the main spaceport.`
 			`	Franz will be waiting for you back on <planet>.`
 				accept
 
@@ -1320,7 +1320,7 @@ mission "ScS Marketing 1"
 			choice
 				`	"Indeed it is."`
 				`	(let them continue)`
-			`	"The Navy need to know they can afford to pour resources into fighting the Free Worlds, and the Free Worlds need to know they face a large and determined Navy. We propose a marketing outreach mission led by Captain <last>. The <ship> will go to each sector of space with a message of friendship, news and advice. We have prepared a series of videos and pamphlets - meaning our marketing team have, for we would not wish to seem vain by appearing ourselves. Captain <last> will take these and present our message to the four sectors of uncivilised space: the Republic Navy in the 'North', the Paradise Planets in the centre, the Deep in the West, and the Free Worlds in the South.`
+			`	"The Navy need to know they can afford to pour resources into fighting the Free Worlds, and the Free Worlds need to know they face a large and determined Navy. We propose a marketing outreach mission led by Captain <last>. The <ship> will go to each sector of space with a message of friendship, news and advice. We have prepared a series of videos and pamphlets - meaning our marketing team have, for we would not wish to seem vain by appearing ourselves. Captain <last> will take these and present our message to the four sectors of uncivilized space: the Republic Navy in the 'North', the Paradise Planets in the centre, the Deep in the West, and the Free Worlds in the South.`
 			`	"In the North, you will show them our vast catalogue of weapons and ships, and they will see that they can rest easy about piracy, because the Syndicate has got their backs.`
 			`	"In the Centre, you will show them the horrors of the war, and they will fear lest it end up on their doorstep, and send the Navy to protect them from ruin.`
 			`	"In the West, you will remind them how much money they can save in difficult times by buying more from the Syndicate, and relying less on their own, overpriced factories.`
@@ -1376,7 +1376,7 @@ mission "ScS Marketing 1"
 					goto done
 	
 			label south
-			`	"You will meet with the Free Worlds leaders in private. And, if we can arrange it, separately with their Senate. They won't want the Repbulic to know, for fear we will stop doing business with them."`
+			`	"You will meet with the Free Worlds leaders in private. And, if we can arrange it, separately with their Senate. They won't want the Republic to know, for fear we will stop doing business with them."`
 			choice
 				`	"Why do we want the Navy not to worry about pirates?"`
 					goto north
@@ -1474,7 +1474,7 @@ mission "ScS Tarazed Escort 1"
 			`	There's the tiniest moment's awkward silence, then they ignore you and carry on.`
 			label news
 			`	Franz takes up the position of spokesman again. "The Navy has attacked the Free Worlds in the South, profits are rising, and the galaxy feels safe again. The many companies under our Syndicate wing no longer must fear tomorrow, of whether they will have work or not.`
-			`	"Part of our work now is to send plenty of supplies to Tarazed, where the Free Worlds can buy them without repurcussions from Repbublic government. But the war brings problems too, and there are reports of convoys being ambushed - so much for the Free Worlds' promise of safety.`
+			`	"Part of our work now is to send plenty of supplies to Tarazed, where the Free Worlds can buy them without repercussions from Republic government. But the war brings problems too, and there are reports of convoys being ambushed - so much for the Free Worlds' promise of safety.`
 			`	"You will continue your mission of friendship to the South, by reaching out to them on Wayfarer as they come to buy parts; meanwhile you will accompany a convoy there and back. Meet the convoy on <destination> to travel together to Tarazed. Safe travels!"`
 			`	You make a little bow, and leave on your next mission of 'friendship'.`
 				accept
@@ -1519,8 +1519,8 @@ mission "ScS Quarg Query"
 	on complete
 		log `Asked one of the alien Quarg about the galactic war. It didn't have much to offer, except a warning that humanity could be entirely destroyed if war goes too far.`
 		conversation
-			`The aliens who live on this moon are called the 'Quarg', and although distrusted by many throughout the galaxy they are known to be both disproportionately powerful and incorruptably peaceful. Whether that's really true or just their own propaganda, you don't know, but seeing how things have been going in Syndicate space, you think it's worth giving them a try.`
-			`	Feeling rather lost you wander through the outpust, keeping your oxygen mask to breathe comfortably in the thin air. It makes for awkward talking when you do find a Quarg to ask questions to, but somehow you manage. The Quarg is curious about you too, and asks a few questions about your home, before you pluck up courage to ask it about your own concerns.`
+			`The aliens who live on this moon are called the 'Quarg', and although distrusted by many throughout the galaxy they are known to be both disproportionately powerful and incorruptibly peaceful. Whether that's really true or just their own propaganda, you don't know, but seeing how things have been going in Syndicate space, you think it's worth giving them a try.`
+			`	Feeling rather lost you wander through the outpost, keeping your oxygen mask to breathe comfortably in the thin air. It makes for awkward talking when you do find a Quarg to ask questions to, but somehow you manage. The Quarg is curious about you too, and asks a few questions about your home, before you pluck up courage to ask it about your own concerns.`
 			choice
 				`	"What do you think of the war between the Republic and the Free Worlds?"`
 				`	"What do you think of the so-called Free Worlds' rebellion?"`
@@ -1585,7 +1585,7 @@ mission "ScS Tarazed Escort 3"
 				goto end
 			
 			label danger
-			`	You rally the crowd. "There is danger in the galaxy!" The crowd murmurs in agreement. "We must stand up to tyrrany!" Cheers from some of the militia captains. "Be strong, and protect our loved ones!" More approval. "The Navy is growing too big! You must be stronger yourself to stop them destroying all your freedom!" ...silence. You'd think after their recent battles people would be ready to hate the Navy and hear your words of warning. Perhaps there's more going on than you understand.`
+			`	You rally the crowd. "There is danger in the galaxy!" The crowd murmurs in agreement. "We must stand up to tyranny!" Cheers from some of the militia captains. "Be strong, and protect our loved ones!" More approval. "The Navy is growing too big! You must be stronger yourself to stop them destroying all your freedom!" ...silence. You'd think after their recent battles people would be ready to hate the Navy and hear your words of warning. Perhaps there's more going on than you understand.`
 			`	Anyway you close off your talk and offer people the Syndicate's promotional brochures as they file out. At least you gave them fair warning; how they prepare is on them now. Time to go and see if the freighters are ready to go. You wonder for a moment what they're all loaded up with now - Tarazed ship sections to use in Syndicate builds? Huge piles of credit chips? Or nothing at all?`
 				goto end
 	
@@ -1652,7 +1652,7 @@ mission "ScS Last Straw 1"
 	on offer
 		log `Uncle WC asked me to ship his workers to Burthen and abandon them, so he can bring new workers and pay them less. I refused. This has landed me in trouble.`
 		conversation
-			`You park the <ship> and head up to Uncle WC's main office on <origin>. As you navigate the corridors and elevators you wonder what sort of work he has for you. Has he got some new plan to rescue the Syndicate from recession? Have the top leaders entrusted his comparatively-insignificant Watersoft company with some important task? Is he cooking some scheme to enrich Watersoft and himself? Or just trying to weasel out of family responsbility again?`
+			`You park the <ship> and head up to Uncle WC's main office on <origin>. As you navigate the corridors and elevators you wonder what sort of work he has for you. Has he got some new plan to rescue the Syndicate from recession? Have the top leaders entrusted his comparatively-insignificant Watersoft company with some important task? Is he cooking some scheme to enrich Watersoft and himself? Or just trying to weasel out of family responsibility again?`
 			choice
 				`	(Take the last elevator)`
 			`	Uncle WC's office is not as lofty as those of the Syndicate bigwigs, but it still takes some getting to. He's amassed quite a wealth on the backs of thousands who have worked for him. You might say he's given thousands the opportunity to work for a good living, and taken his fair reward. Though, with WC, you're not sure it would balance out as fair.`
@@ -1683,7 +1683,7 @@ mission "ScS Last Straw 1"
 			`	"It is fair," says your uncle. "But all they same they wouldn't take it if we offered. They don't know what's best for them!"`
 			label best
 			`	"Best for them... right," you say.`
-			`	"So," continues your uncle, "I've arranged for them to have 'teambuilding exercises'. They think they're going to Amazon, to be Tarzan in the jungle or whatever fanciful nonsesne. You're going to take them to Burthen, in the Al Dhanab system, to get real exercise. Their 'team building' will be to figure out what they're doing next and how to find work, while you take off and don't worry about them again.`
+			`	"So," continues your uncle, "I've arranged for them to have 'teambuilding exercises'. They think they're going to Amazon, to be Tarzan in the jungle or whatever fanciful nonsense. You're going to take them to Burthen, in the Al Dhanab system, to get real exercise. Their 'team building' will be to figure out what they're doing next and how to find work, while you take off and don't worry about them again.`
 			choice
 				`	"Hang on, I didn't sign up to be your Human Dump-truck."`
 				`	"That's evil! Plain evil!"`
@@ -1734,7 +1734,7 @@ mission "ScS Last Straw 1"
 			label leave
 			`	You hold back your words, turn around, and walk out the door. As you go, your uncle cries out after you,`
 			`	"What are you doing?! I made you a fantastic offer! More than you've had your whole space career! I thought you'd be grateful!"`
-			`	When you don't answer, he follows you and carries on pleading, turning to anger. "You don't think it's enough? I'll give you 60% of saivings. I can't afford more than that, all this rearrangement costs money, costs time, I have to train new workers. ...65%! Plus a downpayment. You think you're so clever! You think you'll get a better deal somewhere else?! I'll close every door to you! You'll never see my face again!" He doesn't get it. But that's okay. He thinks you're as mercenary as him, but you'll leave him to his red face; you don't need his approval.`
+			`	When you don't answer, he follows you and carries on pleading, turning to anger. "You don't think it's enough? I'll give you 60% of savings. I can't afford more than that, all this rearrangement costs money, costs time, I have to train new workers. ...65%! Plus a down payment. You think you're so clever! You think you'll get a better deal somewhere else?! I'll close every door to you! You'll never see my face again!" He doesn't get it. But that's okay. He thinks you're as mercenary as him, but you'll leave him to his red face; you don't need his approval.`
 			`	"I'll have you cut off from the Syndicate! Nobody will give you work! No more suck-ups washing your feet. No more hero. You'll be ruined!"`
 			`	You almost hesitate. But they're empty words. You're far too valuable to the Syndicate's recovery, and 'WC Washermann' doesn't have enough influence to tarnish you.`
 			choice

@@ -302,7 +302,7 @@ mission "Sc Bootstrap 3a"
 	on complete
 		payment 80000
 		conversation
-			`	You turn your prisoner over for a pretty large sum of credits, and shuffle back to your ship. You're not sure how to think about this one, anyway you're made for bigger things than individal rogue managers. You say as much to your co-pilot, who promises to look for something a bit more significant for you to do on the world stage. You'll find him in the spaceport later.`
+			`	You turn your prisoner over for a pretty large sum of credits, and shuffle back to your ship. You're not sure how to think about this one, anyway you're made for bigger things than individual rogue managers. You say as much to your co-pilot, who promises to look for something a bit more significant for you to do on the world stage. You'll find him in the spaceport later.`
 	on accept
 		fail "Sc Bootstrap 3b"
 		set "Sc Bootstrap 3b: offered"
@@ -402,7 +402,7 @@ mission "Sc Bootstrap 4a"
 			`	"There's a major miners' strike on Delve, instigated apparently by some lesser captain in the Navy wanting to 'modulate reform,' or something like that. The bosses are looking for people to take the strikers' places, and there's a group on <destination> willing to come, who are up to speed on a broad range of the newest mining techniques. Pick them up by <day> and bring them back to Syndicate space."`
 			choice
 				`	"More common rabble on my ship?"`
-			`	You think about squashing so many uncooth miners onto your exclusive ship, so recently free of sewage smell.`
+			`	You think about squashing so many uncouth miners onto your exclusive ship, so recently free of sewage smell.`
 			`	"Well," he suggests, "if you prefer you can have them flown in shuttles, which you can escort."`
 			`	That sounds a much better idea.`
 				accept
@@ -420,7 +420,7 @@ mission "Sc Bootstrap 4b"
 		dialog `You have failed an essential Syndicate storyline mission, to complete the storyline load from an earlier save or TRY AGAIN YOU USELESS EMPLOYEE!!`
 	on offer
 		conversation
-			`After you land on <origin> it takes a while to look around for shuttles to fly all the miners. When you find some pilots, you put them in touch with the recieving company to negotiate their pay.`
+			`After you land on <origin> it takes a while to look around for shuttles to fly all the miners. When you find some pilots, you put them in touch with the receiving company to negotiate their pay.`
 				accept
 	on complete
 		payment 48000	
@@ -727,7 +727,7 @@ mission "Sc Bootstrap Too-Late"
 				accept
 	on complete
 		payment 2000000
-		log `Finished bussing around my useless co-pilot and the terrible jobs he got me to do. At least I got some good money at the end of it, and perhaps in the future some high-ups in the Syndicate will recognise my brilliance and offer me more work: war always needs enterprising Captains.`
+		log `Finished bussing around my useless co-pilot and the terrible jobs he got me to do. At least I got some good money at the end of it, and perhaps in the future some high-ups in the Syndicate will recognize my brilliance and offer me more work: war always needs enterprising Captains.`
 		conversation
 			`As you touch down on <planet>, you feel a relief that your time being bossed around is over. Perhaps you can't pay off all your loans yet, but there's enough to pay off a big chunk, or buy a new ship upfront, and there's enough work in the galaxy that you can pay the rest off comfortably in your own time.`
 			branch atwar

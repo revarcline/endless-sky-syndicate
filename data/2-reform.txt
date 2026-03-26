@@ -79,7 +79,7 @@ mission "ScS Problems like Maria 1"
 			`	You introduce yourself and ask about Jesse. Joe replies quietly.`
 				goto treatment
 			label rescuer
-			`	Joe and Maria recognise you and are delighted you've come to see them again. Joe speaks quietly as he explains the situation.`
+			`	Joe and Maria recognize you and are delighted you've come to see them again. Joe speaks quietly as he explains the situation.`
 			label treatment
 			`	"It's true, Jesse's heart is weak and some days it's a struggle to watch her. She takes it like a champ, just like her mom, but it's getting worse and we don't know what to do. The doctor said it's easy to treat these days, but we have to go to Hephaestus, that's the nearest place with the right equipment. The hospitals here can't do it."`
 			`	"That's only one jump away," you say.`
@@ -114,7 +114,7 @@ mission "ScS Problems like Maria 2"
 				`	Yes.`
 				`	Not yet.`
 					defer
-			`	Maria meets you in the spaceport with Jesse and a small bag, and hurries on board your ship. Joe has bargained for her just enough time to get there and have the treatment, with threat of "severe consequences" if she'a not back in time. For a moment you think of taking off and blasting a hole in the uncaring boss's office as he sits there, but that would only kill more innocent people - and yourself probably. At least today you can help Jesse get well.`
+			`	Maria meets you in the spaceport with Jesse and a small bag, and hurries on board your ship. Joe has bargained for her just enough time to get there and have the treatment, with threat of "severe consequences" if she's not back in time. For a moment you think of taking off and blasting a hole in the uncaring boss's office as he sits there, but that would only kill more innocent people - and yourself probably. At least today you can help Jesse get well.`
 				accept
 	
 	on stopover
@@ -427,7 +427,7 @@ mission "ScS Armchair Rights 3"
 mission "ScS Armchair Rights 4"
 	landing
 	name "Get paid"
-	description "Head back to Arnold on <destination> to recive his overdue promised payment."
+	description "Head back to Arnold on <destination> to receive his overdue promised payment."
 	source Nimbus
 	destination Farseer
 	on fail
@@ -978,7 +978,7 @@ mission "ScS Union Buster 1a"
 		log `Decided to help a company on Furnace bust their new union. The union is mixed up with dodgy stuff, and it will help everyone if the company can prosper unhindered.`
 		conversation
 			`You wait in the spaceport and after some time a company executive comes to find you.`
-			`	"Captain <last>, thank you so much for your help. If it weren't for you this company would be ruined tomorrow." You wonder if he's going to show his thankfulness with some credit chips, but instead he offers you a job. "The advisors you brought are running damage control, but I'm afraid the mischief's started. Half the employees are trying to unionise, and worse still they're planning to hire a boss secretly, and get him employed here. So unethical, I know! Thing is, we know where the 'boss' is coming from: <planet>."`
+			`	"Captain <last>, thank you so much for your help. If it weren't for you this company would be ruined tomorrow." You wonder if he's going to show his thankfulness with some credit chips, but instead he offers you a job. "The advisors you brought are running damage control, but I'm afraid the mischief's started. Half the employees are trying to unionize, and worse still they're planning to hire a boss secretly, and get him employed here. So unethical, I know! Thing is, we know where the 'boss' is coming from: <planet>."`
 			`	"How does that help us?" you ask.`
 			`	"One of the managers there will know him. Take a manager from there to Earth, and he can vet the candidates and catch this fake applicant."`
 			`	"Sounds like a plan," you say. "What's the payment."`
@@ -1007,7 +1007,7 @@ mission "ScS Union Buster 1b"
 	on complete
 		payment 40000
 		conversation
-			`When you land on Earth, your passenger leaves and hands you <payment>. You have a message waiting for you from Arnold, who says, "nice work stopping the company being disrupted by a union. Now, though, they're all afraid the unionisers will turn violent. I wouldn't normally help this way, but it's for the best... there's a shipment of weapons - completely legal weapons - for you to take to the managers on Foundry so they can defend themselves if necessary. It's in the spaceport waiting for you."`
+			`When you land on Earth, your passenger leaves and hands you <payment>. You have a message waiting for you from Arnold, who says, "nice work stopping the company being disrupted by a union. Now, though, they're all afraid the unionizers will turn violent. I wouldn't normally help this way, but it's for the best... there's a shipment of weapons - completely legal weapons - for you to take to the managers on Foundry so they can defend themselves if necessary. It's in the spaceport waiting for you."`
 
 mission "ScS Union Buster 2"
 	priority
@@ -1276,7 +1276,7 @@ mission "ScS Downs 1"
 		dialog `Don't forget to show the messages first to Mary-Jane and her colleagues on Amazon.`
 	on complete
 		conversation
-			`You find Downey as before in his high-up office. He takes the envelopes from you, and openes and reads them. There's a lot more paper in each than you imagined. Perhaps the real message was on the inside, behind the decoy.`
+			`You find Downey as before in his high-up office. He takes the envelopes from you, and opens and reads them. There's a lot more paper in each than you imagined. Perhaps the real message was on the inside, behind the decoy.`
 			`	"Very good," he says after a while. "It seems now I need transport. Since you're here, you'll be my pilot. Meet me in the spaceport in an hour."`
 
 mission "ScS Downs 1a"
@@ -1343,7 +1343,7 @@ mission "ScS Downs 2"
 mission "ScS Coventry 1"
 	landing
 	name "Must the innocent die?"
-	description "You've been ordered to be ready to blow up a ship of scientests resigning, to stop the few who have sensitive information. Perhaps your friends on <destination> can help save their lives without blowing your cover."
+	description "You've been ordered to be ready to blow up a ship of scientists resigning, to stop the few who have sensitive information. Perhaps your friends on <destination> can help save their lives without blowing your cover."
 	source "Shangri-La"
 	destination Amazon
 	on fail
@@ -1414,7 +1414,7 @@ mission "ScS Coventry 2"
 	landing
 	autosave
 	name "Must the innocent die?"
-	description "You've been ordered to be ready to blow up a ship of innocent scientests. Make what arrangements you can to avoid that, and return to <planet> to finalize plans with the Amazons. You must be back by <day>."
+	description "You've been ordered to be ready to blow up a ship of innocent scientists. Make what arrangements you can to avoid that, and return to <planet> to finalize plans with the Amazons. You must be back by <day>."
 	source Amazon
 	on fail
 		dialog phrase failure
@@ -1501,7 +1501,7 @@ mission "ScS Coventry 3"
 	
 			choice
 				`	"I'm sorry..."`
-			`	"Then we will do our best with what we have. Captain, please go to Lovelace Labs on Ada, where you will find two Star Queens wating for you. Escort them to Hephaestus, where Sophie will meet you."`
+			`	"Then we will do our best with what we have. Captain, please go to Lovelace Labs on Ada, where you will find two Star Queens waiting for you. Escort them to Hephaestus, where Sophie will meet you."`
 			`	"Don't worry," Sophie says and lays a hand on your arm. "It will be okay."`
 			`	Mary-Jane continues, "you will hand over the Star Queens to an engineering team arranged by our Reunioner sisters, after which you should go to the pirate world of Deadman's Cove to await Downey's call. We will make sure he gets news of the scientists' transport about the time you get there.`
 			action
@@ -1871,7 +1871,7 @@ mission "ScS Extreme Flight 2a"
 				`	"Yes, Sir."`
 					goto whois
 				`	"This man should be tried publicly and fairly."`
-			`	"I assure you that will happen - once a full and proper investigation has been conducted. Don't touble yourself about these matters, it is in our hands now."`
+			`	"I assure you that will happen - once a full and proper investigation has been conducted. Don't trouble yourself about these matters, it is in our hands now."`
 			label whois
 			`	He walks away, and you notice he had no ID tag or anything, but from the way everyone acted with deference near him, he must have been someone highly important.`
 			`	You look at the back of the credit chip he gave you, and there's a small business card tucked there too: "Alistair Korban, Syndicate CEO"`
@@ -2002,14 +2002,14 @@ mission "ScS Extreme Flight 3"
 				`	"We have to expose this, for justice."`
 			`	You continue. "Think of all the people who have died fighting a war they didn't want. Think of the people blamed for a heinous act of terrorism they never committed. We can't hide this, and if this scientist can get the truth out, we should help him."`
 			`	Your speech raises cheers around the table, but Mary-Jane gives a note of warning.`
-			`	"But," she says, "the Rebpublic Navy may turn their guns on the Syndicate, and many people here, just as innocent, will die. If we can round up all the extremists ourselves, and hand them, neatly packaged, to the Republic government, we can end this with peace, and keep the right to govern ourselves."`
+			`	"But," she says, "the Republic Navy may turn their guns on the Syndicate, and many people here, just as innocent, will die. If we can round up all the extremists ourselves, and hand them, neatly packaged, to the Republic government, we can end this with peace, and keep the right to govern ourselves."`
 			choice
 				`	"No. The galaxy deserves to know. Anything less is joining hands with evil."`
 					goto savehim
 				`	"You're right. We should stop him and solve this within the Syndicate."`
 					goto stophim
 			label warhere
-			`	You explain. "See, parliament will come after the Syndciate for reparations. And the Free Worlds will hunt us down like tigers - which they have every right to do, except it means more death, more suffering. Without our intervention, the Free Worlds and Repbulic must come to a truce soon enough. And we will round up the extremists, purge them, and try them in our courts where they belong. The old leadership will quail. A new, righeous leadership will arise, one that values human life right down to the poorist and least able! And at last, with the true terrorists exposed and tried, we hand them over to the Republic government and make peace for the galaxy!"`
+			`	You explain. "See, parliament will come after the Syndicate for reparations. And the Free Worlds will hunt us down like tigers - which they have every right to do, except it means more death, more suffering. Without our intervention, the Free Worlds and Republic must come to a truce soon enough. And we will round up the extremists, purge them, and try them in our courts where they belong. The old leadership will quail. A new, righteous leadership will arise, one that values human life right down to the purist and least able! And at last, with the true terrorists exposed and tried, we hand them over to the Republic government and make peace for the galaxy!"`
 			`	As you speak, the circle of Amazons rises to your rally, and lets out whoops and cheers! A few, though, remain sombre.`
 			`	"Captain," one speaks up. "After causing war and bombing cities, after profiting from the deaths of millions, do you think the Syndicate deserves to try its own? Should we not let those who have suffered most, decide? since we have the chance?"`
 			choice
@@ -2100,7 +2100,7 @@ mission "ScS Extreme Flight 4a"
 			choice
 				`	"So what's next?"`
 			`	"Must we wait again?" you ask hopefully.`
-			`	"No." Downey's face clouds as he picks out a file and looks over it. He turns it towards you and opens it on a photo of a man you think you recognise. Long ago, when you first started flying, you took a scientist named Sawyer to the almost-abandoned world of Mutiny.`
+			`	"No." Downey's face clouds as he picks out a file and looks over it. He turns it towards you and opens it on a photo of a man you think you recognize. Long ago, when you first started flying, you took a scientist named Sawyer to the almost-abandoned world of Mutiny.`
 			`	He continues. "This man, Sawyer, was one of our allies. A physicist, and an asset to those who love their galaxy and seek prosperity. But now he has abandoned reason!" Downey's countenance, if it can, gets still darker. "His pockets are lies, and his mind is treason! He is hiding, but-" there's a pause, and Downey speaks quietly, "we will find him.`
 			`	"As for you," he snaps back to focus. "Go to Delta Capricorni and wait. Wait for my signal, and we will catch him as he flees. The fly will not escape the spider, no, nor the sly fox the hounds. Go! Go and be ready. If you fail, we all fall - and you will fall with us."` 
 			`	You leave to ready your ship: not, as Downey expects, to catch a traitor - but to deliver him to freedom. First stop: the cache of evidence on <planet>.`
